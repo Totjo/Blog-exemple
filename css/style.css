@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+header{
+    margin-top: 3%;
+    border-top: solid 3px #3FAB87;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+h2{
+    color: #3FAB87;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post{
+    display: flex;
+    margin-top: 4%;
+    width: 50%;
+}
+
+.postinfo{
+    padding-left: 10%;
+}
+
+.postimg{
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    width: 40vw;
+}
+
+.infos{
+    padding: 0% 5% 0% 5%;
+    width: 55vw;
+    /* changement */
+}
+
+.infos p{
+    border-top: dotted 3px #3FAB87;
+    padding-top: 5%;
+}
+
+button{
+    border: 0;
+    border-bottom: solid 2px #2a765d;
+    border-left: solid 2px #2a765d;
+    background-color: #3FAB87;
+    cursor: pointer;
+    color: white;
+    padding: 2%;
+}
+
+button:hover{
+    border: 0;
+    background-color: #3FAB87;
+}
+
+.datecom{
+    font-size: small;
+    color: rgb(130, 130, 130);
+}
+
+.datecom .comment{
+    padding-left: 2%;
+}
